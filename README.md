@@ -29,8 +29,8 @@ The following was done using the 3T GUI to create a table in the MongoDB Databas
 ```
 
 ## Data Sets for the insertion
-[CVS Dataset for MongoDB](pcat725.github.io/dataNov-14-2018.csv).
-[SQL Dataset for Oracle](pcat725.github.io/dataNov-14-2018 (1).sql).
+[CVS Dataset for MongoDB](https://github.com/pcat725/pcat725.github.io/blob/master/dataNov-14-2018.csv).
+[SQL Dataset for Oracle](https://github.com/pcat725/pcat725.github.io/blob/master/dataNov-14-2018%20(1).sql).
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

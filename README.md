@@ -1,27 +1,33 @@
-## Welcome to my page on my Oracle vs MongoDB Comparison
+## Welcome to my page on Oracle vs MongoDB Comparison
 This repository will be used to contain information on my project comparing MongoDB vs Oracle databases. Such as datafile and code used.
 
-### Markdown
+### Oracle Command used to create table
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The following command was used to create the table in the Oracle Database.
+This command was run through the Toad for Oracle GUI.
 
 ```markdown
-Syntax highlighted code block
+DROP TABLE SYS.ADDRESS_BOOK CASCADE CONSTRAINTS;
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+CREATE TABLE SYS.ADDRESS_BOOK
+(
+  NAME            VARCHAR2(25 BYTE),
+  PHONE_NUMBER    VARCHAR2(25 BYTE),
+  STREET_ADDRESS  VARCHAR2(50 BYTE),
+  CITY            VARCHAR2(50 BYTE),
+  ZIP_CODE        VARCHAR2(10 BYTE),
+  COUNTRY         VARCHAR2(50 BYTE)
+)
 ```
+### Creation of a table in MongoDB
+The following was done using the 3T GUI to create a table in the MongoDB Database.
+```markdown
+-Select the Database for the data to be stored in
+-Select the Collection
+-Right click the connection and click add collection giving the data set a name
+-The data collection is then created.
+```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 

@@ -30,9 +30,32 @@ The following was done using the 3T GUI to create a table in the MongoDB Databas
 
 ## Data Sets for the insertion
 [CVS Dataset for MongoDB](https://github.com/pcat725/pcat725.github.io/blob/master/dataNov-14-2018.csv).
+
 [SQL Dataset for Oracle](https://github.com/pcat725/pcat725.github.io/blob/master/dataNov-14-2018%20(1).sql).
 
+### Inserting data into each Database
 
+## Oracle
+
+Data was inserted into the Oracle 12c Database using TOAD SQL Editor in Toad for Oracle and processing the commands in the above attached document.
+
+## MongoDB
+
+Data was inserted into the MongoDB 4.0 Database using 3T by:
+```markdown
+-Selecting the container
+-Clicking Import data
+-Selecting the file
+-Following the prompts to ensure the incoming CSV file was in the correct format.
+```
+
+
+
+
+
+
+
+# Additional Details
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 You can use the [editor on GitHub](https://github.com/pcat725/pcat725.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
